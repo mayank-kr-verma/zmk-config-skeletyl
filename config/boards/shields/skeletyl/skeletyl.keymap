@@ -72,7 +72,7 @@ keymap {
 			&kp Q 	   	 &kp W 		&kp E		&kp R		&kp T				&kp Y 		&kp U		&kp I		&kp O		&kp P
 			&hm LCTRL A  &kp S 		&kp D		&kp F	 	&kp G		 		&kp H 		&kp J		&kp K		&kp L 		&hm RCTRL SEMI
 			&hs LSHIFT Z &kp X		&kp C 		&kp V 		&kp B   			&kp N		&kp M  		&kp COMMA 	&kp PERIOD	&hs RSHIFT SLASH
-									&kp LALT 	&kp BSPC	&lt 1 DEL			&lt 2 RET	&kp SPACE	&kp RALT 
+									&kp BSPC	&lt 1 DEL	&kp LALT			&kp RALT	&lt 2 RET	&kp SPACE	 
 		>;
 	};
 
@@ -81,7 +81,7 @@ keymap {
 			&kp N1		&kp N2 		&kp N3		&kp N4		&kp N5				&kp N6 		&kp N7		&kp N8		&kp N9		&kp N0
 			&trans		&trans		&trans		&trans		&kp PSCRN 			&kp LEFT	&kp DOWN	&kp UP		&kp RIGHT	&kp SQT
 			&trans		&kp C_PREV	&kp C_NEXT	&kp LEFT	&kp RIGHT			&kp MINUS	&kp PLUS	&kp LBKT	&kp RBKT	&hs RSHIFT BSLH
-									&kp LGUI	&trans		&trans				&trans		&trans		&trans
+									&trans		&trans		&kp LGUI			&trans		&trans		&trans
 		>;
 	};
 
