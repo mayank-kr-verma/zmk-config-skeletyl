@@ -1,10 +1,10 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_SKELETYL_LEFT
+if SHIELD_SKELETYL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Skeletyl"
+	default "MakX keyboard"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
