@@ -24,16 +24,6 @@
 		};
 	};
 
-	combos {
-	        compatible = "zmk,combos";
-	        combo_esc {
-	            timeout-ms = <50>;
-	            key-positions = <16 17>;
-		    layers = <0>;
-	            bindings = <&kp ESC>;
-	        };
-	    };
-
 	keymap {
 		compatible = "zmk,keymap";
 
@@ -51,7 +41,7 @@
 				&kp N1			&kp N2 			&kp N3			&kp N4			&kp N5			&kp N6 	  	&kp N7		&kp N8	   	&kp N9		&kp N0
 				&kp LGUI		&kp LALT 		&kp LSHIFT		&kp LCTRL		&kp LC(GRAVE)  		&kp LEFT	&kp DOWN	&kp UP	   	&kp RIGHT	&kp CAPS
 				&bt BT_SEL 0		&bt BT_SEL 1 		&bt BT_SEL 2		&bt BT_SEL 3   		&bt BT_SEL 4		&kp HOME	&kp PG_DN	&kp PG_UP	&kp END		&kp INS
-							&trans     		&trans			&out OUT_TOG		&out OUT_TOG  		&trans		&trans
+							&kp TAB     		&kp BSPC		&out OUT_TOG		&bt BT_CLR  		&kp SPACE	&kp RET
 			>;
 		};
 
@@ -59,7 +49,7 @@
 			bindings = <
 				&kp LBRC	&kp RBRC 	&kp LBKT	&kp RBKT	&kp GRAVE		&kp C_PP 		&kp F9      	&kp F10		&kp F11		&kp F12
 				&kp SQT		&kp DQT		&kp MINUS	&kp UNDER	&kp TILDE	 	&kp C_VOL_UP		&kp F5		&kp F6 	    	&kp F7		&kp F8
-				&kp BSLH	&kp PIPE	&kp PLUS   	&kp EQUAL	&bt BT_CLR		&kp C_VOL_DN		&kp F1		&kp F2 		&kp F3		&kp F4
+				&kp BSLH	&kp PIPE	&kp PLUS   	&kp EQUAL	&trans			&kp C_VOL_DN		&kp F1		&kp F2 		&kp F3		&kp F4
 								&trans		&trans		&trans			&trans			&trans		&trans
 			>;
 		};
