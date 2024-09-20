@@ -31,17 +31,17 @@
 			bindings = <
 				&kp Q       &kp W       &kp F          &kp P          	&kp G                	&kp J          	&kp L         	&kp U          	&kp Y         &kp SEMI    
 				&hm LGUI A  &hm LALT R  &hm LSHIFT S   &hm LCTRL T    	&kp D                	&kp H          	&hm RCTRL N   	&hm RSHIFT E    &hm LALT I    &hm RGUI O  
-				&kp Z       &kp X  	&kp C          &kp V          	&kp B                	&kp K          	&kp M         	&kp COMMA       &kp PERIOD	&kp SLASH    
+				&kp Z       &kp X  	    &kp C          &kp V          	&kp B                	&kp K          	&kp M         	&kp COMMA       &kp PERIOD	&kp SLASH    
 							&lt 1 TAB      &lt 2 BSPC	&hm LCTRL DEL		&hm LGUI ESC  	&lt 2 SPACE	&lt 1 RET 
 			>;
 		};
 
 		lower_layer {
 			bindings = <
-				&kp N1			&kp N2 			&kp N3			&kp N4			&kp N5			&kp N6 	  	&kp N7		&kp N8	   	&kp N9		&kp N0
+				&kp N1			&kp N2 			&kp N3			&kp N4			&kp N5			    &kp N6 	  	&kp N7		&kp N8	   	&kp N9		&kp N0
 				&kp LGUI		&kp LALT 		&kp LSHIFT		&kp LCTRL		&kp LC(GRAVE)  		&kp LEFT	&kp DOWN	&kp UP	   	&kp RIGHT	&kp CAPS
-				&bt BT_SEL 0		&bt BT_SEL 1 		&bt BT_SEL 2		&bt BT_SEL 3   		&bt BT_SEL 4		&kp HOME	&kp PG_DN	&kp PG_UP	&kp END		&kp INS
-							&kp TAB     		&kp BSPC		&out OUT_TOG		&bt BT_CLR_ALL 		&kp SPACE	&kp RET
+				&bt BT_SEL 0	&bt BT_SEL 1 	&bt BT_SEL 2	&bt BT_SEL 3   	&bt BT_SEL 4		&kp HOME	&kp PG_DN	&kp PG_UP	&kp END		&kp INS
+                                &kp TAB     		&kp BSPC		&bt BT_CLR_ALL		&bt BT_CLR_ALL 		&kp SPACE	&kp RET
 			>;
 		};
 
